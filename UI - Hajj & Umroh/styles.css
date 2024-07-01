@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+/* Navbar */
+.navbar.fixed-top {
+  width: 100%;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+}
+
+.scroll-nav-active {
+  background: #1f1f1f;
+}
+
+.nav-link {
+  margin: 0px 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.nav-link.active {
+  color: #f9b88e;
+  margin: 0px 10px;
+  font-size: 18px;
+}
+
+/* Hero */
+#hero {
+  background-image: url("images/bg-mekah.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1200px;
+  padding-top: 100px;
+}
+
+
+/* Offers */
+.img-offers {
+  border-radius: 15px;
+}
+
+/* Services */
+#services {
+  /* background-image: linear-gradient(to right, #cccac7 0%, #f8f6f2 50%); */
+  background-image: url("images/bg-services.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
